@@ -39,7 +39,6 @@ public class MockMvcController {
 启动类:
 ```apple js
 @SpringBootApplication
-@EnableSwagger2 // 启用 swagger
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
@@ -178,3 +177,8 @@ public class SwaggerController {
     }
 }
 ```
+要看到效果，在控制台运行:
+> mvn spring-boot:run  
+
+启动完成访问路径:
+> http://localhost:8080/swagger-ui.html
