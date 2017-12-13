@@ -182,3 +182,5 @@ public class SwaggerController {
 
 启动完成访问路径:
 > http://localhost:8080/swagger-ui.html
+
+* 访问的时候会发现一个问题，那就是 MockMvc的Controller也显示出来，只是没有相应的描述，也可以正常使用浏览器测试。
